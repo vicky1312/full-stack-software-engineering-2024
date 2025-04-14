@@ -42,9 +42,7 @@ function App() {
             selectedPost = {selectedPost}
             setSelectedPost = {setSelectedPost} />
           ))}
-       </div>
-       
-      
+      </div>
     </>
   )
 }

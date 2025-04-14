@@ -1,0 +1,21 @@
+.quote-wrapper{
+  padding: 2rem;
+}
+.quote-box{
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 3px 2px 2px 3px grey;
+  margin-top: 2rem;
+}
+select{
+  width: 10rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
