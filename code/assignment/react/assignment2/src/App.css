@@ -1,0 +1,28 @@
+body{
+    background-color: #696e79;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.todo-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #444444;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: black 3px 4px 5px 4px;
+}
+.input-wrapper{
+    gap: 2em;
+}
+h2{
+    color: black;
+}
