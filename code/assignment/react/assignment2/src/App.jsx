@@ -5,12 +5,12 @@ import { useState } from 'react'
 function App() {
  
   const [toDo, setTodo] = useState ([
-    { id: 1, task: "Serve the dog", completed: true },
-    { id: 2, task: "wash the dishes", completed: false },
-    { id: 3, task: "study", completed: false },
-    { id: 4, task: "buy groceries", completed: false },
-    { id: 5, task: "visit the library", completed: false },
-    { id: 6, task: "make dinner", completed: false },
+    // { id: 1, task: "Serve the dog", completed: true },
+    // { id: 2, task: "wash the dishes", completed: false },
+    // { id: 3, task: "study", completed: false },
+    // { id: 4, task: "buy groceries", completed: false },
+    // { id: 5, task: "visit the library", completed: false },
+    // { id: 6, task: "make dinner", completed: false },
 ])
 
 const todoTask = (id) => {
@@ -23,6 +23,7 @@ const deleteTask = (id) => {
 }
   return (
       <>
+      <div className='topic-section'>
       <h2>TODOS</h2>
       <div className='input-wrapper'>
       <Tasks
@@ -42,6 +43,8 @@ const deleteTask = (id) => {
       
      ))}
      </div>
+      </div>
+      
      </>
   )
 }
